@@ -17,6 +17,7 @@ const schema = object({
     .min(7, 'Number must be at least 7 digits')
     .max(7, 'Number must be at most 7 digits')
     .required('Required!'),
+  
 });
 
 class UserForm extends Component {
